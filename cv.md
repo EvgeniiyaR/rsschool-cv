@@ -2,7 +2,7 @@
 
 ***
 
-* contacts:
+* ### contacts:
 
     + e-mail: tulpansik@mail.ru
     + phone: +7 967 079 95 06
@@ -10,12 +10,12 @@
     + discord: EvgeniiaRomanchenko
 
 ***
-* about me:
+* ### about me:
 
 I am a novice web developer. I am developing in the field of web programming, I have completed professional retraining in the Fullstack programming program and continue to study independently. My goal is to gain commercial experience in this area, to apply my skills and knowledge in a working project.
 
 ***
-* personal qualities: 
+* ### personal qualities: 
 
     + responsibility 
     + perseverance 
@@ -24,7 +24,7 @@ I am a novice web developer. I am developing in the field of web programming, I 
     + attentiveness
 
 ***
-* skills: 
+* ### skills: 
 
     + HTML
     + CSS
@@ -33,17 +33,17 @@ I am a novice web developer. I am developing in the field of web programming, I 
     + Python
 
 ***
-* code example:
+* ### code example:
 
 `print("Hello world!")`
 
 ***
-* work experience:
+* ### work experience:
 
 I don't have any experience yet, but I really want to get it.
 
 ***
-* education:
+* ### education:
 
     + The Professional Center
     2022 professional retraining according to the Fullstack program-programming 
@@ -51,7 +51,7 @@ I don't have any experience yet, but I really want to get it.
     2021 python generation: course for beginners
 
 ***
-* languages:
+* ### languages:
 
     + Russian - Native 
     + English - A2
