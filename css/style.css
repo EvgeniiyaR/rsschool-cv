@@ -1,4 +1,131 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+
+.body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.nav {
+    display: grid;
+    justify-content: space-between;
+    list-style-type: none;
+    grid-gap: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 60vw;
+    font-size: 20px;
+    grid-template-columns: repeat(8, 1fr);
+    text-align: center;
+}
+
+.border-top {
+    border-top: 1px solid #e2e2e2;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.menu-item:hover {
+    background-color: #e2e2e2;
+}
+
+@keyframes flashing {
+    0% {
+        background-color: #e2e2e2;
+    }
+    20% {
+        background-color: white;
+    }
+    40% {
+        background-color: #e2e2e2;
+    }
+    60% {
+        background-color: white;
+    }
+    80% {
+        background-color: #e2e2e2;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+#contacts:target, #about:target, #qualities:target, #skills:target, #code:target, #experience:target, #education:target, #languages:target {
+    animation: flashing 3s;
+}
+
+.main {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    list-style-position: inside;
+    padding: 0 0 50px;
+}
+
+.part {
+    grid-template-rows: repeat(4, 1fr);
+}
+
+@keyframes marker {
+    0% {
+        background-color: #e2e2e2;
+    }
+    50% {
+        background-color: #fcfcfc;
+    }
+    100% {
+        background-color: #e2e2e2;
+    }
+}
+
+.heading {
+    animation: marker 10s infinite;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.topic {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    width: 60vw;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.underline:hover {
+    text-decoration: underline;
 }
