@@ -23,7 +23,7 @@
     align-items: center;
     gap: 30px;
     margin: 0 auto;
-    width: 60vw;
+    max-width: 1280px;
 }
 
 .nav {
@@ -34,10 +34,11 @@
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 auto;
-    width: 60vw;
     font-size: 20px;
     grid-template-columns: repeat(8, 1fr);
     text-align: center;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 .border-top {
@@ -80,7 +81,7 @@
 .main {
     box-sizing: border-box;
     margin: 0 auto;
-    width: 60vw;
+    max-width: 1280px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -119,7 +120,7 @@
 .footer {
     display: flex;
     margin: 0 auto;
-    width: 60vw;
+    max-width: 1280px;
     justify-content: center;
     gap: 30px;
     align-items: center;
